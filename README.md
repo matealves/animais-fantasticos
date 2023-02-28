@@ -24,7 +24,7 @@ Depois o projeto inteiro foi refatorado para <strong>Programação Orientada a O
 
 <!--<h1 align="center"> -->
 <h3>
-<a href="https://matealves.github.io/countdown/" target="_blank">Testar (preview)</a> 
+<a href="https://matealves.github.io/animais-fantasticos/" target="_blank">Testar (preview)</a> 
 </h3>
 
 <!-- <p align = "center">
@@ -38,7 +38,9 @@ Depois o projeto inteiro foi refatorado para <strong>Programação Orientada a O
  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
   <!-- <img align="center" alt="Mateus-SASS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"> -->
-  <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align="center" alt="Webpack" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg">
+  <img align="center" alt="ESLint" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg">
 
 </div>
 <br>
