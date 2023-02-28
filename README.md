@@ -17,7 +17,7 @@
 
 <div id="visao">
 <h1>Visão geral</h1>
-Página web desenvolvida utilizando programação funcional, com objetivo e praticar o uso de modulos, modal, scroll suave, animar ao scroll, fetch API, dropdown menu, tooltip, entre outras animações tudo em uma mesma página.
+Página web desenvolvida utilizando programação funcional, com objetivo de praticar o uso de modulos, modal, scroll suave, animar ao scroll, fetch API, dropdown menu, tooltip, entre outras animações, tudo em uma mesma página.
 Depois o projeto inteiro foi refatorado para <strong>Programação Orientada a Objetos</strong>  na linguagem Javascript.
 </div>
 <br>
