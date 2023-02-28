@@ -3,12 +3,12 @@ import Accordion from "./modules/Accordion.js";
 import TabNav from "./modules/Tabnav.js";
 import Modal from "./modules/Modal.js";
 import Tooltip from "./modules/Tooltip.js";
-import initDropdownMenu from "./modules/dropdown-menu.js";
-import initMenuMobile from "./modules/menu-mobile.js";
-import initFuncionamento from "./modules/funcionamento.js";
-import initFetchAnimais from "./modules/fetch-animais.js";
-import initFetchBitcoin from "./modules/fetch-bitcoin.js";
-import initAnimacaoScroll from "./modules/scroll-animacao.js";
+import initDropdownMenu from "./modules/DropdownMenu.js";
+import initMenuMobile from "./modules/MenuMobile.js";
+import initFuncionamento from "./modules/Funcionamento.js";
+import initFetchAnimais from "./modules/FetchAnimais.js";
+import initFetchBitcoin from "./modules/FetchBitcoin.js";
+import initAnimacaoScroll from "./modules/ScrollAnimacao.js";
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
