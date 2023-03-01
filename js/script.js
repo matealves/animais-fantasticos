@@ -8,7 +8,7 @@ import initMenuMobile from "./modules/MenuMobile.js";
 import initFuncionamento from "./modules/Funcionamento.js";
 import fetchAnimais from "./modules/fetchAnimais.js";
 import fetchBitcoin from "./modules/fetchBitcoin.js";
-import initAnimacaoScroll from "./modules/ScrollAnimacao.js";
+import ScrollAnima from "./modules/ScrollAnima.js";
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
@@ -32,10 +32,12 @@ modal.init();
 const tooltip = new Tooltip("[data-tooltip]");
 tooltip.init();
 
+const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
+scrollAnima.init();
+
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
-initAnimacaoScroll();
 
 fetchAnimais("../../animaisapi.json", ".numeros-grid");
 
