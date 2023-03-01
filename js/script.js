@@ -3,7 +3,7 @@ import Accordion from "./modules/Accordion.js";
 import TabNav from "./modules/Tabnav.js";
 import Modal from "./modules/Modal.js";
 import Tooltip from "./modules/Tooltip.js";
-import initDropdownMenu from "./modules/DropdownMenu.js";
+import DropdownMenu from "./modules/DropdownMenu.js";
 import initMenuMobile from "./modules/MenuMobile.js";
 import initFuncionamento from "./modules/Funcionamento.js";
 import fetchAnimais from "./modules/fetchAnimais.js";
@@ -36,7 +36,12 @@ const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 // scrollAnima.stop();
 
-initDropdownMenu();
+const dropdownMenu = new DropdownMenu("[data-dropdown]", [
+  "touchstart",
+  "click",
+]);
+dropdownMenu.init();
+
 initMenuMobile();
 initFuncionamento();
 
