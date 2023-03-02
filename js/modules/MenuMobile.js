@@ -6,13 +6,14 @@ export default class MenuMobile {
     this.menuList = document.querySelector(list);
     this.activeClass = "active";
     // Define argumentos padrões caso não seja passado nada
-    this.events = events === undefined ? ["click", "touchstart"] : events;
+    this.events = events === undefined ? ["touchstart", "click"] : events;
 
     // Referenciar objeto no this para função callback
     this.openMenu = this.openMenu.bind(this);
   }
 
-  openMenu() {
+  openMenu(event) {
+    event.preventDefault();
     this.menuList.classList.add(this.activeClass);
     this.menuButton.classList.add(this.activeClass);
     outsideClick(this.menuList, this.events, () => {
